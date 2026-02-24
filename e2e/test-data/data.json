@@ -1,0 +1,16 @@
+[
+  {
+    "testCase": "TC01",
+    "input": {
+      "valid": "abc123",
+      "invalid": "abaabc"
+    }
+  },
+  {
+    "testCase": "TC02",
+    "input": {
+      "differentField": "Value1",
+      "destinationInput": "Paris"
+    }
+  }
+]

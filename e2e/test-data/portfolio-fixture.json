@@ -1,0 +1,122 @@
+{
+  "access": {
+    "invalidFormatCodes": ["ab12", "abc12!", "toolong7"],
+    "notFoundCodes": ["zzz999", "qwe123"]
+  },
+  "profiles": [
+    {
+      "code": "abc123",
+      "portfolio": {
+        "name": "Alex Candidate",
+        "address": "New York, NY",
+        "phone": "+1-555-0100",
+        "email": "alex@example.com",
+        "dob": "1995-08-14",
+        "summary": "QA engineer with strong automation and UI testing background.",
+        "experience": [
+          {
+            "company": "Acme Corp",
+            "role": "QA Engineer",
+            "location": "New York",
+            "from": "Jan 2022",
+            "to": "Jun 2023",
+            "points": ["Built regression suites", "Reduced release defects by 30%"],
+            "skills": ["Playwright", "TypeScript"]
+          },
+          {
+            "company": "Beta Labs",
+            "role": "Senior QA Engineer",
+            "location": "Boston",
+            "from": "Jul 2023",
+            "to": "Present",
+            "points": ["Led test strategy", "Improved flaky test stability"],
+            "skills": ["Svelte", "CI/CD"]
+          }
+        ],
+        "education": [
+          {
+            "university": "State University",
+            "course": "B.S. Computer Science",
+            "location": "Chicago",
+            "from": "2014",
+            "to": "2018",
+            "points": ["Graduated with honors"],
+            "skills": ["Algorithms", "Databases"]
+          }
+        ],
+        "certifications": ["ISTQB Foundation", "AWS Cloud Practitioner"],
+        "project": [
+          {
+            "name": "Portfolio UI",
+            "description": "Interactive guided resume web app",
+            "duration": "3 months",
+            "skills": ["SvelteKit", "Flask"]
+          },
+          {
+            "name": "Automation Dashboard",
+            "description": "Internal test reporting tool",
+            "duration": "6 months",
+            "skills": ["Python", "Playwright"]
+          }
+        ]
+      }
+    },
+    {
+      "code": "def456",
+      "portfolio": {
+        "name": "Jordan Analyst",
+        "address": "Austin, TX",
+        "phone": "+1-555-0200",
+        "email": "jordan@example.com",
+        "dob": "1993-02-10",
+        "summary": "Product-minded SDET focused on reliability and fast release pipelines.",
+        "experience": [
+          {
+            "company": "Nimbus Systems",
+            "role": "SDET",
+            "location": "Austin",
+            "from": "Mar 2021",
+            "to": "Dec 2022",
+            "points": ["Created API test framework", "Cut post-release incidents"],
+            "skills": ["Java", "REST Assured"]
+          },
+          {
+            "company": "Orbit Digital",
+            "role": "Lead QA",
+            "location": "Remote",
+            "from": "Jan 2023",
+            "to": "Present",
+            "points": ["Owned quality roadmap", "Scaled e2e coverage"],
+            "skills": ["Playwright", "Docker"]
+          }
+        ],
+        "education": [
+          {
+            "university": "Tech Institute",
+            "course": "M.S. Information Systems",
+            "location": "Dallas",
+            "from": "2016",
+            "to": "2018",
+            "points": ["Capstone in test automation"],
+            "skills": ["Data Modeling", "Automation"]
+          }
+        ],
+        "certifications": ["Certified Scrum Master", "Azure Fundamentals"],
+        "project": [
+          {
+            "name": "Release Risk Predictor",
+            "description": "Model to predict test risk before deployments",
+            "duration": "4 months",
+            "skills": ["Python", "Pandas"]
+          },
+          {
+            "name": "UI Smoke Matrix",
+            "description": "Cross-browser smoke matrix for critical journeys",
+            "duration": "2 months",
+            "skills": ["Playwright", "GitHub Actions"]
+          }
+        ]
+      }
+    }
+  ]
+}
